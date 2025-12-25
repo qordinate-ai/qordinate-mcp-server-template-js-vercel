@@ -44,7 +44,8 @@ These tools demonstrate basic functionality and API integration patterns. Replac
 
 ## Notes for running on Vercel
 
-- Make sure you have [Fluid compute](https://vercel.com/docs/functions/fluid-compute) enabled for efficient execution. As of April 23, 2025, fluid compute is enabled by default for new projects.
+- Make sure you have [Fluid compute](https://vercel.com/docs/functions/fluid-compute) enabled for efficient execution.
+- As of April 23, 2025, fluid compute is enabled by default for new projects.
 - After enabling Fluid compute, open `vercel.json` and adjust max duration to 800 if you using a Vercel Pro or Enterprise account.
 
 ## Local dev
@@ -52,10 +53,3 @@ These tools demonstrate basic functionality and API integration patterns. Replac
 - Run `vercel dev` for local development
 - Alternatively, integrate the system into the server framework of your choice.
 
-## Sample Client
-
-`script/test-client.mjs` contains a sample client to try invocations.
-
-```sh
-node scripts/test-client.mjs https://mcp-on-vercel.vercel.app
-```

@@ -1,7 +1,7 @@
 {
-  "name": "mcp-on-vercel",
+  "name": "mcp-server-on-vercel",
   "version": "1.0.0",
-  "description": "",
+  "description": "A MCP server running on Vercel Functions",
   "main": "index.js",
   "type": "module",
   "scripts": {
@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "npm@10.8.0",
   "dependencies": {
     "mcp-handler": "^1.0.1",
     "zod": "^3.24.2"
